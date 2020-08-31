@@ -120,52 +120,9 @@ class Verification_OTPActivity : AppCompatActivity() {
         else
         {
             Toast.makeText(this, "Something went wrong", Toast.LENGTH_SHORT).show()
-        }})
-    }
-
-  /*  private fun signInWithPhoneAuthCredential(mcredential: PhoneAuthCredential)
-    {
-        mauth.signInWithCredential(mcredential).addOnCompleteListener(this, OnCompleteListener
-        {
-                task: Task<AuthResult> ->
-
-            if(task.isSuccessful)
-            {
-                val intent = Intent(this, HomeScreen_Activity::class.java)
-                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
-                startActivity(intent)
-            }
-            else
-            {
-                //if verification is unsuccessful then...
-                Toast.makeText(this, "Something went wrong", Toast.LENGTH_SHORT).show()
-            }
+        }
         })
-    }*/
-
-/*
-    private fun signInWithPhoneAuthCredential(mcredential: PhoneAuthCredential) {
-        mauth.signInWithCredential(mcredential).addOnCompleteListener(this, OnCompleteListener {
-
-                  fun onComplete(task: Task<AuthResult>)
-                 {
-                     if(task.isSuccessful)
-                     {
-                         val intent = Intent(this, HomeScreen_Activity::class.java)
-                         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
-                         startActivity(intent)
-                     }
-                     else
-                     {
-                         //if verification is unsuccessful then...
-                         Toast.makeText(this, "Something went wrong", Toast.LENGTH_SHORT).show()
-                     }
-                 }
-            })
     }
-*/
-
-
 
 
 }
