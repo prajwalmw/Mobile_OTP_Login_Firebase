@@ -33,7 +33,7 @@
         android:maxLength="10"
         android:gravity="start"
         android:hint="mobile number"
-        android:inputType="textPhonetic"
+        android:inputType="phone"
         android:paddingStart="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

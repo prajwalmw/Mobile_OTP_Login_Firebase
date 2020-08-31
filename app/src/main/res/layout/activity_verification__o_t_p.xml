@@ -44,7 +44,7 @@
         android:ems="10"
         android:gravity="start"
         android:hint="OTP will be displayed here"
-        android:inputType="textPersonName"
+        android:inputType="phone"
         android:paddingStart="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

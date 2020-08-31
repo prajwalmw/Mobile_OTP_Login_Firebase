@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val editText: EditText = findViewById(R.id.edit_phone_number)
-        val button: Button = findViewById(R.id.button_continue)
+        val button: Button = findViewById(R.id.button_send)
 
 
         button.setOnClickListener(View.OnClickListener
